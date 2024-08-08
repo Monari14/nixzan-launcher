@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>niXzan Client</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <a href="register.html">Registrar</a>
+    <a href='login.html'>Logar</a>
+  </div>
+  <script>
+    document.getElementById('minimize-btn').addEventListener('click', () => {
+      window.api.minimizeWindow();
+    });
+
+    document.getElementById('close-btn').addEventListener('click', () => {
+      window.api.closeWindow();
+    });
+  </script>
+</body>
+</html>

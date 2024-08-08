@@ -1,0 +1,17 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "nixzan",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Felipe Eduardo Monari",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.3.1"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.1.2"
+  }
+}

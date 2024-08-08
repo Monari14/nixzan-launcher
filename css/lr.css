@@ -1,0 +1,160 @@
+.title-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+  background-color: transparent;
+}
+
+.title-bar-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1557682224-5b8590cd9ec5');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .container {
+    background-color: rgba(40, 44, 52, 0.85);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+  }
+  
+  .logo span {
+    font-size: 36px;
+    font-weight: bold;
+    color: #282c34;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #ffffff;
+  }
+  
+  button {
+    width: 20%;
+    padding: 15px;
+    border: none;
+    border-radius: 30%;
+    background-color: #4caf50;
+    color: #ffffff;
+    font-size: 20pt;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .create-account {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .create-account a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .create-account a:hover {
+    color: #4caf50;
+    text-decoration: underline;
+  }
+  
+  .image-container {
+    margin-top: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .logo {
+      height: 50px;
+      width: 50px;
+    }
+  
+    .logo span {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 1.2rem;
+    }
+  
+    input[type="text"],
+    input[type="password"],
+    button {
+      padding: 10px;
+      font-size: 1rem;
+    }
+  
+    button {
+      font-size: 1rem;
+    }
+  
+  }  
